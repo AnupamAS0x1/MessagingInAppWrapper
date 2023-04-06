@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		01AA47131AB5DF81966AA708 /* Pods_MessagingInAppWrapper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessagingInAppWrapper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0702ECF271D8F328E6810CC3 /* MessagingInAppWrapper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MessagingInAppWrapper.podspec; path = ../MessagingInAppWrapper.podspec; sourceTree = "<group>"; };
+		0702ECF271D8F328E6810CC3 /* MessagingInAppWrapper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MessagingInAppWrapper.podspec; path = ../MessagingInAppWrapper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		43C18ECE510805EF7A9A02E0 /* Pods-MessagingInAppWrapper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessagingInAppWrapper_Example.release.xcconfig"; path = "Target Support Files/Pods-MessagingInAppWrapper_Example/Pods-MessagingInAppWrapper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4F9166B7D117C85789E2D9D5 /* Pods-MessagingInAppWrapper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessagingInAppWrapper_Tests.release.xcconfig"; path = "Target Support Files/Pods-MessagingInAppWrapper_Tests/Pods-MessagingInAppWrapper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MessagingInAppWrapper_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessagingInAppWrapper_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,9 +43,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		78BD29DE1BDDD86A7A4B6192 /* Pods-MessagingInAppWrapper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessagingInAppWrapper_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MessagingInAppWrapper_Tests/Pods-MessagingInAppWrapper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8600CE0B87E5EA9F3D030567 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8600CE0B87E5EA9F3D030567 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		ADDD63D0BA01DAA8D521C661 /* Pods_MessagingInAppWrapper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessagingInAppWrapper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFB487F92BA339B1EA7EAE5C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EFB487F92BA339B1EA7EAE5C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F56B31F36625683F0003A5CC /* Pods-MessagingInAppWrapper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessagingInAppWrapper_Example.debug.xcconfig"; path = "Target Support Files/Pods-MessagingInAppWrapper_Example/Pods-MessagingInAppWrapper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				78BD29DE1BDDD86A7A4B6192 /* Pods-MessagingInAppWrapper_Tests.debug.xcconfig */,
 				4F9166B7D117C85789E2D9D5 /* Pods-MessagingInAppWrapper_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

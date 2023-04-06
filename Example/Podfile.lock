@@ -1,0 +1,16 @@
+PODS:
+  - MessagingInAppWrapper (0.1.0)
+
+DEPENDENCIES:
+  - MessagingInAppWrapper (from `../`)
+
+EXTERNAL SOURCES:
+  MessagingInAppWrapper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MessagingInAppWrapper: 0fb23683ff9fb2d2e4c960d990ada061cb8f05c0
+
+PODFILE CHECKSUM: bcdc8005cc9b16a7ccf2ded918f2919dfe37e5bc
+
+COCOAPODS: 1.12.0

@@ -1,0 +1,6 @@
+framework module MessagingInAppWrapper {
+  umbrella header "MessagingInAppWrapper-umbrella.h"
+
+  export *
+  module * { export * }
+}
